@@ -1,0 +1,97 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+
+body {
+    background-color: #FFF;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    box-shadow: 5px 10px 10px 5px yellow, -10px -10px lightseagreen;
+}
+
+.input-texto{
+background-color: green;
+transform:scale(1.2);
+
+}
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 140px;
+    background-image: url("./muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    box-shadow: 5px 10px 10px 5px yellow, -10px -10px lightseagreen;
+}
+
+.mensaje{
+
+background-color: lightgreen;
+transform:scale(1.2);
+}
+
+
+
+
+.copiar {
+    background-color: peru;
+    color: white;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 205px;
+    border: none;
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: peru;
+    color:white;
+    border: none;
+    border-radius: 10px; 
+    margin: auto;
+}
+
+.desencriptar {
+    background-color: peru;
+    color: white;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    
+   
+}
+
+.informacion {
+    font-weight: bold;
+    font-size: 28px;
+}
